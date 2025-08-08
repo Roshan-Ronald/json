@@ -5,9 +5,9 @@ const Arre = () => {
   const year = 2025;
   const isActive = true;
   const users = [
-    { id: 1, name: 'Alice', age: 30, active: true },
-    { id: 2, name: 'Bob', age: 25, active: true },
-    { id: 3, name: 'Charlie', age: 35, active: true },
+    { id: 1, name: 'Edwin', age: 30, active: true },
+    { id: 2, name: 'ROshan', age: 25, active: true },
+    { id: 3, name: 'Ronald', age: 35, active: true },
   ];
 
   return (
