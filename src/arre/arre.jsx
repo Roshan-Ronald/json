@@ -5,10 +5,10 @@ const Arre = () => {
   const year = 2025;
   const isActive = true;
   const users = [
-    { id: 1, name: 'Edwin', age: 30, active: true },
-    { id: 2, name: 'ROshan', age: 25, active: true },
+    { id: 1, name: 'Sahaya', age: 30, active: true },
+    { id: 2, name: 'Roshan', age: 25, active: true },
     { id: 3, name: 'Ronald', age: 35, active: true },
-  ];
+  ]; 
 
   return (
     <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-md">
