@@ -1,12 +1,17 @@
-import React from 'react';
-import Arre from './arre/arre';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Arre from "./Components/arre";
+import AddMoviePage from "./Components/AddMoviePage";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Arre />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Arre />} />
+        <Route path="/add-movie" element={<AddMoviePage />} />
+      </Routes>
+    </Router>
   );
-};
+}
 
 export default App;
