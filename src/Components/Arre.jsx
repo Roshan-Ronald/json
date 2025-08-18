@@ -30,6 +30,16 @@ const Arre = () => {
     { id: 18, title: "Thani Oruvan", year: 2015, genre: "Action Thriller", rating: 8.4, available: true },
     { id: 19, title: "Naan Kadavul", year: 2009, genre: "Drama", rating: 8.1, available: true },
     { id: 20, title: "Aayirathil Oruvan", year: 2010, genre: "Adventure", rating: 7.9, available: true },
+    { id: 21, title: "Iru Mugan", year: 2016, genre: "Sci-Fi Action", rating: 6.8, available: true },
+    { id: 22, title: "Kavan", year: 2017, genre: "Political Thriller", rating: 7.0, available: true },
+    { id: 23, title: "Vikram Vedha", year: 2017, genre: "Action Thriller", rating: 8.0, available: true },
+    { id: 24, title: "Thupparivaalan", year: 2017, genre: "Mystery Thriller", rating: 7.5, available: true },
+    { id: 25, title: "Mersal", year: 2017, genre: "Action", rating: 7.5, available: true },
+    { id: 26, title: "Sarkar", year: 2018, genre: "Political Action", rating: 7.0, available: true },
+    { id: 27, title: "Bigil", year: 2019, genre: "Sports Drama", rating: 6.5, available: true },
+    { id: 28, title: "Enthiran", year: 2010, genre: "Sci-Fi Action", rating: 7.1, available: true },
+    { id: 29, title: "Kabali", year: 2016, genre: "Action Drama", rating: 6.9, available: true },
+    { id: 30, title: "Petta", year: 2019, genre: "Action", rating: 7.0, available: true },
   ]);
 
   const handleDelete = id => setMovies(prev => prev.filter(m => m.id !== id));
